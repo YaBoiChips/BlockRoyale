@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bullet.spin": {
+			"loop": true,
+			"animation_length": 0.125,
+			"bones": {
+				"bullet": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0417": {
+							"vector": [0, 0, -90]
+						},
+						"0.0833": {
+							"vector": [0, 0, -180]
+						},
+						"0.125": {
+							"vector": [0, 0, -270]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
