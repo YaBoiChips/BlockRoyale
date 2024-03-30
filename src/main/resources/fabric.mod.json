@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "blockroyale",
+  "version": "${version}",
+  "name": "BlockRoyale",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/piema/BlockRoyale"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/blockroyale/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "yaboichips.blockroyale.client.BlockRoyaleClient"
+    ],
+    "main": [
+      "yaboichips.blockroyale.BlockRoyale"
+    ]
+  },
+  "mixins": [
+    "blockroyale.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
